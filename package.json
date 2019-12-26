@@ -1,0 +1,26 @@
+{
+  "name": "nimbella_commander_template",
+  "version": "0.1.0",
+  "repository": "git@github.com:satyarohith/nimbella_commander_template.git",
+  "author": "Satya Rohith <me@satyarohith.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "xo"
+  },
+  "devDependencies": {
+    "husky": "^3.1.0",
+    "xo": "^0.25.3"
+  },
+  "xo": {
+    "space": true,
+    "prettier": true,
+    "rules": {
+      "unicorn/filename-case": 0
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn test"
+    }
+  }
+}
