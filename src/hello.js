@@ -38,6 +38,9 @@ async function _command(params, commandText, secrets = {}) {
  */
 
 const main = async ({__secrets = {}, commandText, ...params}) => ({
-  body: await _command(params, commandText, __secrets)
+  body: await _command(params, commandText, __secrets).catch(error => ({
+    response_type: 'ephemeral',
+    text: `Error: ${error.message}`
+  }))
 });
 module.exports = main;
