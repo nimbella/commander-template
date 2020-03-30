@@ -1,7 +1,7 @@
 {
   "name": "nimbella_commander_template",
   "version": "0.1.0",
-  "repository": "git@github.com:satyarohith/nimbella_commander_template.git",
+  "repository": "git@github.com:nimbella/commander-template.git",
   "author": "Satya Rohith <me@satyarohith.com>",
   "license": "MIT",
   "scripts": {

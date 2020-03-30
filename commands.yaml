@@ -1,7 +1,6 @@
-sourceBasePath: https://raw.githubusercontent.com/satyarohith/nimbella_commander_template/master/
 commands:
   hello:
-    sourcePath: src/hello.js
+    sourcePath: packages/hello/hello.js
     description: Say "Hello" to the world or to the name provided.
     parameters:
       - name: name
