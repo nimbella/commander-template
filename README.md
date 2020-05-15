@@ -69,7 +69,7 @@ async function _command(params, commandText, secrets = {}) {
 1. You can run the converter command with `/nc converter` 
 2. You can make changes on the online editor with `/nc command_code converter`
 3. Make sure you commit any changes to your github command-set. The changes can updated with `/nc csm_update currency` 
-4. Any logs you add within the command can be seen on by running `/nc activation_log` *after* running your command. This might help in fixing bugs  
+4. Any logs you add within the command can be seen by running `/nc activation_log` *after* running your command. This might help in fixing bugs  
 
  
 
