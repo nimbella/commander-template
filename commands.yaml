@@ -1,6 +1,5 @@
 commands:
   hello:
-    sourcePath: packages/hello/hello.js
     description: Say "Hello" to the world or to the name provided.
     parameters:
       - name: name
